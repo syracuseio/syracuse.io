@@ -2,7 +2,6 @@ baseurl = "https://syracuse.io/"
 languageCode = "en-us"
 title = "Syracuse.io"
 theme = "beautifulhugo"
-publishDir = "docs" # for github pages
 DefaultContentLanguage = "en"
 metaDataFormat = "yaml"
 pygmentsUseClasses = true
