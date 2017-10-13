@@ -2,7 +2,9 @@ Welcome to Syracuse.io, home to Syracuse's diverse and growing developer scene.
 
 This is your one stop for information on our local meet ups, lists of local data resources, and community slack.
 
-Whether you are new to the area or a seasoned veteran, please check out our [tech meetups](/groups), join our [local slack](/community), and [mailing list](tinyletter.com/syracuseio). 
+Whether you are new to the area or a seasoned veteran, please check out our [tech meetups](/groups), join our [mailing list](https://tinyletter.com/syracuseio), and hang out with our local slack group...
+
+<center><script async defer src="https://syracuseio.now.sh/slackin.js?large"></script></center>
 
 We have an active slack community, a monthly mailng list, and a
 list of upcoming dev events.
