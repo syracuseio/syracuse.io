@@ -22,18 +22,21 @@
             {{.}}
         {{ end }}
         </div>
-          <div class="row">
-          {{ range $i, $page := .Data.Pages }}
-            {{ $counter := add $i 1}}
-            <div class="col-md-4">
-              {{ .Render "summary"}}
+      </div>
+      <h2>Local Developer Groups</h2>
+      <hr/>
+      <div class="row">
+        {{ range $i, $page := .Data.Pages }}
+          {{ $counter := add $i 1}}
+          <div class="col-md-4">
+            {{ .Render "summary"}}
+          </div>
+          {{ if modBool $counter 3 }}
             </div>
-            {{ if modBool $counter 3 }}
-              </div>
-              <div class="row">
-            {{ end }}
+            <div class="row">
           {{ end }}
-        </div>
+        {{ end }}
+      </div>
       </div>
     </div>
   </div>
