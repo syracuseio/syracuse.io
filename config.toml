@@ -56,13 +56,13 @@ pygmentCodeFences = true
     weight = 1
 
 [[menu.main]]
-    name = "Community"
-    url = "/community/"
+    name = "Resources"
+    url = "/resources/"
     weight = 2
 
 [[menu.main]]
-    name = "Chat"
-    url = "/slack/"
+    name = "Community"
+    url = "/community/"
     weight = 3
 
 

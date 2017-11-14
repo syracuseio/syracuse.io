@@ -2,14 +2,14 @@
 title: Code of Conduct
 ---
 
-### What is expected of me as a member of the Syracuse.io community
+### What is expected of me as a member of the Syracuse development community?
 
-Basically just be nice, treat others how you would like to be treated, and don't
-be an garbage human being.
+Basically just be nice. treat others how you would like to be treated,
+and don't be a bad human being.
 
 ### Code of Conduct
 
-Syracuse.io community a harassment free space. We do not tolerate
+[Syracuse.io](http://syracuse.io) community a harassment free space. We do not tolerate
 harassment of any kind.
 
 Harassment includes:
@@ -33,22 +33,22 @@ Harassment includes:
 
 ### Reporting
 
-If you are being harassed by a member, notice that someone else is being
-harassed, or have any other concerns, please contact the administrators by
-typing /admin in Slack, or contact an admin directly via DM. If the person who
-is harassing you is on the team, they will recuse themselves from handling your
+If you are being harassed by a member, notice that someone else is
+being harassed, or have any other concerns, please contact `@mike` or another admin directly via DM. If the person who is harassing you is on the admin team, they will recuse themselves from handling your
 incident. We will respond as promptly as we can.
 
-In order to protect volunteers from abuse and burnout, we reserve the right to
-reject any report we believe to have been made in bad faith. Reports intended to
-silence legitimate criticism may be deleted without response.
+In order to protect volunteers from abuse and burnout, we reserve 
+the right to reject any report we believe to have been made in bad 
+faith. Reports intended to silence legitimate criticism may be 
+deleted without response.
 
-We will respect confidentiality requests for the purpose of protecting victims
-of abuse. At our discretion, we may publicly name a person about whom we’ve
-received harassment complaints, or privately warn third parties about them, if
-we believe that doing so will increase the safety of members or the general
-public. We will not name harassment victims without their affirmative consent.
+We will respect confidentiality requests for the purpose of 
+protecting victims of abuse. At our discretion, we may publicly
+name a person about whom we’ve received harassment complaints, or
+privately warn third parties about them, if we believe that doing 
+so will increase the safety of members or the general public. We 
+will not name harassment victims without their affirmative consent.
  
-### Again...
+### In summary
 
-Life is hard, just be kind to each other.
+Please treat each other with kindness, thank you. <3

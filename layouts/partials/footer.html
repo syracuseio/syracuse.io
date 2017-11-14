@@ -29,7 +29,7 @@
       </div>
     </div>
     <div class="row">
-        <div class="col-md-6 col-md-offset-4">
+        <div class="col-md-6 col-md-offset-4 col-xs-8 col-xs-offset-2">
           <br>
           <h4>Stay informed on Syracuse Dev events</h4>
           <form action="https://tinyletter.com/openhacksyr" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/openhacksyr', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
@@ -53,7 +53,6 @@
             &nbsp;&bull;&nbsp;
           {{ end }}
 
-          
           {{ .Site.LastChange.Format "2006" }}
 
           {{ if .Site.Title }}
