@@ -15,22 +15,10 @@ body{
 footer {
     border-color: #d44500;
     border-width: 2px;
-
-    .input-group {
-        margin: 20px auto;
-        width: 100%;
-    }
-    input.btn.btn-lg {
-        width: 60%;
-        height: 60px;
-        border-top-right-radius: 0;
-        border-bottom-right-radius: 0;
-    }
-    button.btn {
-        width: 40%;
-        height: 60px;
-        border-top-left-radius: 0;
-        border-bottom-left-radius: 0;
-    }
 }
 
+footer .input-group {
+    width: 70%;
+}
+
+}
