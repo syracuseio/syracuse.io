@@ -1,11 +1,25 @@
+{{/* https://bootsnipp.com/snippets/o1Z3O */}}
+{{ $data := index .Site.Data.groups .Params.group }}
+{{ $groupEvents := index .Site.Data.events .Params.group }}
 
-<div class="panel panel-default">
+{{/*}}
+{{ range $groupEvents.events }}
+    {{ .name }}
+{{ end }}
+{{*/}}
+
+<div class="panel panel-default panel-front">		
     <div class="panel-heading">
-        <h3 class="panel-title"><a href='{{ .Permalink }}'>{{ .Title }}</a></h3>
+        <h4 class="panel-title"><a HREF="{{ .Permalink }}"><img src="{{ $data.image }}"></a></h4>
     </div>
     <div class="panel-body">
-        {{ .Summary }}
-        <br>
-        <small><a href='{{ .Permalink }}'>see more</a></small>
+        <span class="label {{ if eq $data.type "hackathon" }} label-danger {{ else }} label-info {{ end }} pull-right">{{ $data.type }}</span>
+        <h4>{{ $data.title }} </h4>
+        {{ with .Params.summary }}{{ . | markdownify | emojify }}{{ else }}{{ .Summary | markdownify }}{{ end }}
     </div>
-</div>
+    <div class="panel-footer">
+        <div class="text-right">
+            <a href="{{ .Permalink }}" class="btn btn-default btn-sm" role="button">Learn more</a>
+        </div>
+    </div>
+</div>		

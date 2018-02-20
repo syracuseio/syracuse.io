@@ -14,22 +14,17 @@
     </div>
   </header>
 {{ end }}
+
 {{ define "main" }}
   <div class="container" role="main">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        {{ with .Content }}
-            {{.}}
-        {{ end }}
-        </div>
-      </div>
-      <h2>Local Developer Groups</h2>
-      <hr/>
+      
       <div class="row">
-        {{ range $i, $page := .Data.Pages }}
+        {{ $groupPages := where .Data.Pages "Section" "==" "groups"}}
+  
+        {{ range $i, $page := $groupPages }}
           {{ $counter := add $i 1}}
           <div class="col-md-4">
-            {{ .Render "summary"}}
+            {{ .Render "summary" }}
           </div>
           {{ if modBool $counter 3 }}
             </div>
@@ -39,6 +34,14 @@
       </div>
       </div>
     </div>
+
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+          {{ with .Content }}
+              {{.}}
+          {{ end }}
+        </div>
+      </div>
   </div>
 {{ end }}
 

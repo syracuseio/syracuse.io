@@ -1,0 +1,33 @@
+---
+openhack:
+  title: OpenHack
+  twitter: openhacksyr
+  slack: openhack
+  description: "OpenHack Syracuse is really great"
+  image: "/img/openhack-august-15.jpg"
+  url: http://openhacksyr.com
+  type: meetup
+syr_js:
+  title: Syracuse Javascript Meetup
+  twitter: syrjsmeetup
+  slack: javascript
+  image: /img/syrjs.png
+  type: meetup
+dev_drinks:
+  title: /dev/drinks
+  twitter: 
+  slack: general
+  image: "/img/yutacar-28290.jpg"
+  image_credit: "unsplash"
+  type: meetup
+hack_upstate:
+  title: "Hack Upstate"
+  twitter: hackupstate
+  url: http://hackupstate.com
+  image: /img/hackupstate.jpg
+  type: hackathon
+women_in_coding:
+  title: "Women in Coding"
+  url: http://womenincoding.com
+  image: /img/womenincoding.jpg
+  type: meetup

@@ -1,6 +1,7 @@
 body{
     font-size: 20px;
 }
+
 .navbar-custom {
     background-color: #1B1B1B;
     border-bottom: 2px solid #474747;
@@ -9,16 +10,40 @@ body{
     font-weight: 700;
     color: #F0F0F0;
 }
-.panel-body {
-    font-size: 16px;
-}
+
 footer {
     border-color: #d44500;
     border-width: 2px;
 }
-
 footer .input-group {
     width: 70%;
 }
 
+.panel-front {
+    margin-bottom:20px;
+    margin-top:20px;
+}
+.panel-front .panel-heading .panel-title img {
+	border-radius:3px 3px 0px 0px;
+    width:100%;
+    height: 174px;
+    object-fit: cover;
+}
+.panel-front .panel-heading {
+	padding: 0px;	
+}
+.panel-front .panel-heading h4 {
+	line-height: 0;
+}
+.panel-front .panel-body h4 {
+	font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+.panel-body {
+    font-size: 16px;
+}
+.panel-footer {
+    width:100%;
+    font-size: 14px;
 }
