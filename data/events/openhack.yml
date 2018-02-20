@@ -1,0 +1,236 @@
+---
+next:
+  name: OpenHack March
+  rsvp_link: https://www.meetup.com/Syracuse-Software-Development-Meetup/events/gdqxgpyxfbrb/
+  date: 2018-03-13
+  time: 6:00pm
+  location: Syracuse Coworks
+past:
+  - name: OpenHack February
+    date: 2018-2-13
+    location: coworks
+    rsvp_link: https://www.meetup.com/Syracuse-Software-Development-Meetup/events/247328039/
+  - name: OpenHack January
+    date: 2018-1-9
+    location: coworks
+    rsvp_link: https://www.meetup.com/SyracuseCoWorks/events/tchbfmyxcbmb/
+    attendees: Cancelled due to weather, 0
+  - name: OpenHack December
+    date: 2017-12-12 
+    location: coworks
+    rsvp_link:
+    attendees: Cancelled due to weather, 0
+  - name: OpenHack November
+    date: 2017-11-14
+    location: coworks
+    rsvp_link: https://www.meetup.com/SyracuseCoWorks/events/244705879/
+  - name: OpenHack October
+    date: 2017-10-10
+    location: coworks
+    rsvp_link: https://www.meetup.com/SyracuseCoWorks/events/243317808/
+  - name: OpenHack September
+    date: 2017-9-12
+    location: coworks
+    rsvp_link: https://www.meetup.com/SyracuseCoWorks/events/243023670/
+  - name: OpenHack August
+    date: 2017-8-8
+    location: coworks
+    rsvp_link: https://www.meetup.com/SyracuseCoWorks/events/tchbfmywlblb/
+  - name: OpenHack July
+    date: 2017-7-18
+    location: coworks
+    rsvp_link: https://www.meetup.com/SyracuseCoWorks/events/240898642/
+    attendees: 26
+  - name: OpenHack June
+    date: 2017-6-13
+    location: coworks
+    rsvp_link: https://www.meetup.com/SyracuseCoWorks/events/239549455/
+  - name: OpenHack May
+    date: 2017-5-9
+    location: coworks
+    rsvp_link: https://www.meetup.com/SyracuseCoWorks/events/239549455/
+  - name: OpenHack April
+    date: 2017-4-11 
+    location: coworks
+    rsvp_link: https://www.meetup.com/SyracuseCoWorks/events/238797796/
+    attendees: 10
+  - name: OpenHack March
+    date: 2017-3-14
+    location: coworks
+    rsvp_link: https://www.meetup.com/SyracuseCoWorks/events/238797796/
+    attendees: Cancelled due to weather, 0
+  - name: OpenHack February
+    date: 2017-2-14 
+    location: coworks
+    rsvp_link: https://www.meetup.com/SyracuseCoWorks/events/236883840/
+    attendees: 14
+  - name: OpenHack January
+    date: 2017-1-10 
+    location: coworks
+    rsvp_link: https://www.meetup.com/SyracuseCoWorks/events/236392914/
+    attendees: 18
+  - name: OpenHack December
+    date: 2016-12-13 
+    location: coworks
+    rsvp_link: https://www.meetup.com/SyracuseCoWorks/events/235623845/
+    attendees: 19
+  - name: OpenHack November
+    date: 2016-11-5 
+    location: coworks
+    rsvp_link: https://www.meetup.com/SyracuseCoWorks/events/235358965/
+    attendees: 18
+  - name: OpenHack October
+    date: 2016-10-11 
+    location: coworks
+    rsvp_link: http://nextplex.com/syracuse-ny/calendar/events/44586-openhack-october
+    attendees: 17
+  - name: OpenHack September
+    date: 2016-9-13 
+    location: coworks
+    rsvp_link: http://nextplex.com/syracuse-ny/calendar/events/43365-openhack-september
+    attendees: 17
+  - name: OpenHack August
+    date: 2016-8-9 
+    location: coworks
+    rsvp_link: http://nextplex.com/syracuse-ny/calendar/events/42427-openhack-august
+    attendees: 21
+  - name: OpenHack July
+    date: 2016-7-12 
+    location: coworks
+    rsvp_link: http://nextplex.com/syracuse-ny/groups/openhack-syracuse/events/42164-openhack-july
+    attendees: 18
+  - name: OpenHack June
+    date: 2016-6-14 
+    location: coworks
+    rsvp_link: http://nextplex.com/syracuse-ny/calendar/events/40326-openhack-june
+    attendees: 23
+  - name: OpenHack May
+    date: 2016-5-10 
+    location: coworks
+    rsvp_link: http://nextplex.com/syracuse-ny/calendar/events/39341-openhack-may
+    attendees: 18
+  - name: OpenHack April
+    date: 2016-4-12 
+    location: coworks
+    rsvp_link: http://nextplex.com/syracuse-ny/calendar/events/38077-openhack-april
+    attendees: 19
+  - name: OpenHack March
+    date: 2016-3-8 
+    location: coworks
+    rsvp_link: http://nextplex.com/syracuse-ny/calendar/events/37059-openhack-march
+    attendees: 18
+  - name: OpenHack February
+    date: 2016-2-9 
+    location: coworks
+    rsvp_link: http://nextplex.com/syracuse-ny/calendar/events/36302-openhack-february
+    attendees: 22
+  - name: OpenHack January
+    date: 2016-1-12 
+    location: coworks
+    rsvp_link: http://nextplex.com/syracuse-ny/calendar/events/35073-openhack-january
+    attendees: 13
+  - name: OpenHack December
+    date: 2015-12-8 
+    location: coworks
+    rsvp_link: http://nextplex.com/syracuse-ny/calendar/events/34204-openhack-december
+    attendees: 21
+  - name: OpenHack November
+    date: 2015-11-10 
+    location: coworks
+    rsvp_link: http://nextplex.com/syracuse-ny/groups/openhack-syracuse/events/33763-openhack-november
+    attendees: 18
+  - name: OpenHack October
+    date: 2015-10-13 
+    location: coworks
+    rsvp_link: http://nextplex.com/syracuse-ny/calendar/events/33075-openhack-october
+    attendees: 14
+  - name: OpenHack September
+    date: 2015-09-08 
+    location: coworks
+    rsvp_link: http://nextplex.com/syracuse-ny/calendar/events/31111-openhack-september
+    attendees: 14
+  - name: OpenHack August
+    date: 2015-08-11 
+    location: coworks
+    rsvp_link: http://nextplex.com/syracuse-ny/groups/openhack-syracuse/events/30521-openhack-august
+    attendees: 17
+  - name: OpenHack July
+    date: 2015-07-14 
+    location: coworks
+    rsvp_link: http://nextplex.com/syracuse-ny/calendar/events/29083-openhack-july
+    attendees: 11
+  - name: OpenHack June
+    date: 2015-06-09 
+    location: coworks
+    rsvp_link: http://nextplex.com/syracuse-ny/calendar/events/28187-openhack-june
+    attendees: 12
+  - name: OpenHack May
+    date: 2015-05-12 
+    location: coworks
+    rsvp_link: http://nextplex.com/syracuse-ny/calendar/events/27822-openhack-may
+    attendees: 13
+  - name: OpenHack April
+    date: 2015-04-14 
+    location: coworks
+    rsvp_link: http://nextplex.com/syracuse-ny/calendar/events/26687-openhack-april
+    attendees: 12
+  - name: OpenHack 12
+    date: 2015-03-10 
+    location: coworks
+    rsvp_link: http://nextplex.com/syracuse-ny/calendar/events/25193-openhack-12
+    attendees: 7
+  - name: OpenHack 11
+    date: 2015-02-17 
+    location: coworks
+    rsvp_link: http://nextplex.com/syracuse-ny/groups/openhack-syracuse/events/24471-openhack-11
+    attendees: 7
+  - name: OpenHack 10
+    date: 2015-01-13 
+    location: ttg
+    rsvp_link: http://nextplex.com/syracuse-ny/groups/openhack-syracuse/events/23318-openhack-10
+    attendees: 7
+  - name: OpenHack 9
+    date: 2014-12-9 
+    location: ttg
+    rsvp_link: http://nextplex.com/syracuse-ny/calendar/events/22144-openhack-9
+    attendees: 7
+  - name: OpenHack 8
+    date: 2014-11-11
+    location: ttg
+    rsvp_link: http://nextplex.com/syracuse-ny/groups/openhack-syracuse/events/21434-openhack-8
+    attendees: 7
+  - name: OpenHack 7
+    date: 2014-10-15
+    location: ttg
+    rsvp_link: http://nextplex.com/syracuse-ny/groups/openhack-syracuse/events/20366-openhack-7
+    attendees: 14
+  - name: OpenHack 6
+    date: 2014-9-9
+    location: ttg
+    rsvp_link: http://nextplex.com/syracuse-ny/groups/openhack-syracuse/events/18882-openhack-6
+    attendees: 9
+  - name: OpenHack 5
+    date: 2014-8-12 
+    location: ttg
+    rsvp_link: http://nextplex.com/syracuse-ny/groups/openhack-syracuse/events/18881-openhack-5
+    attendees: 11
+  - name: OpenHack 4
+    date: 2014-7-8 
+    location: ttg
+    rsvp_link: http://nextplex.com/syracuse-ny/groups/openhack-syracuse/events/17706-openhack-4
+    attendees: 15
+  - name: OpenHack 3
+    date: 2014-6-10 
+    location: ttg
+    rsvp_link: http://nextplex.com/syracuse-ny/groups/openhack-syracuse/events/17551-openhack-3
+    attendees: 9
+  - name: OpenHack 2.0
+    date: 2014-5-13 
+    location: ttg
+    rsvp_link: http://nextplex.com/syracuse-ny/groups/openhack-syracuse/events/16542-openhack-2-0
+    attendees: 7
+  - name: OpenHack 1.0
+    date: 2014-4-8
+    location: ttg
+    rsvp_link: http://nextplex.com/syracuse-ny/groups/openhack-syracuse/events/15908-openhack-1-0
+    attendees: 8
