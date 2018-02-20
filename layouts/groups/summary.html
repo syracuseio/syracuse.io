@@ -2,24 +2,25 @@
 {{ $data := index .Site.Data.groups .Params.group }}
 {{ $groupEvents := index .Site.Data.events .Params.group }}
 
-{{/*}}
-{{ range $groupEvents.events }}
-    {{ .name }}
-{{ end }}
-{{*/}}
 
 <div class="panel panel-default panel-front">		
     <div class="panel-heading">
-        <h4 class="panel-title"><a HREF="{{ .Permalink }}"><img src="{{ $data.image }}"></a></h4>
+        <h4 class="panel-title"><a href="{{ .Permalink }}"><img src="{{ $data.image }}"></a></h4>
     </div>
+
     <div class="panel-body">
         <span class="label {{ if eq $data.type "hackathon" }} label-danger {{ else }} label-info {{ end }} pull-right">{{ $data.type }}</span>
         <h4>{{ $data.title }} </h4>
         {{ with .Params.summary }}{{ . | markdownify | emojify }}{{ else }}{{ .Summary | markdownify }}{{ end }}
     </div>
+
     <div class="panel-footer">
-        <div class="text-right">
-            <a href="{{ .Permalink }}" class="btn btn-default btn-sm" role="button">Learn more</a>
+        {{ with $groupEvents.next }}
+           <a target="_blank" href="{{$groupEvents.next.rsvp_link}}"><i class="fa fa-calendar"></i> {{ dateFormat "Mon, January 2, 2006" .date }}</a>
+        {{ end }}
+        &nbsp;
+        <div class="pull-right">
+            <a href="{{ .Permalink }}" class="btn btn-default btn-xs" role="button">Learn more</a>
         </div>
     </div>
 </div>		
