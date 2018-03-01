@@ -1,10 +1,11 @@
-Welcome to [Syracuse.io](http://syracuse.io), home to Syracuse's diverse and growing developer scene.  
+Welcome to [Syracuse.io](http://syracuse.io), home to Syracuse's diverse and growing developer scene.
 
-This is your one stop for information on local meet ups, lists of local data resources, an active slack [community](/community/), and more to come.
+This is your one stop for information on [local meet ups](/groups/), lists of [local data
+resources](/resources/), an active slack [community](/community/), and more to come.
 
 Whether you are new to the area or a seasoned veteran, please check
-out [tech meetups](/groups), join our 
-[mailing list](https://tinyletter.com/syracuseio), and hang out 
+out [tech meetups](/groups), join our
+[mailing list](https://tinyletter.com/syracuseio), and hang out
 with our local slack group...
 
 <center><script async defer src="https://syracuseio.now.sh/slackin.js?large"></script></center>
@@ -12,8 +13,3 @@ with our local slack group...
 Take a look at our upcoming events below, join us in slack, say
 "hello ~~world~~", and join our community of Syracuse devs.
 
-> _events coming soon_
-
-<small>
-Interested in starting a new dev meetup?  Contact us on email, twitter, or slack!
-</small>

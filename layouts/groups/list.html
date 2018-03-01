@@ -17,31 +17,26 @@
 
 {{ define "main" }}
   <div class="container" role="main">
-      
-      <div class="row">
-        {{ $groupPages := where .Data.Pages "Section" "==" "groups"}}
-  
-        {{ range $i, $page := $groupPages }}
-          {{ $counter := add $i 1}}
-          <div class="col-md-4">
-            {{ .Render "summary" }}
-          </div>
-          {{ if modBool $counter 3 }}
-            </div>
-            <div class="row">
-          {{ end }}
-        {{ end }}
-      </div>
-      </div>
-    </div>
-
     <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-          {{ with .Content }}
-              {{.}}
-          {{ end }}
+      {{ $groupPages := where .Data.Pages "Section" "==" "groups"}}
+
+      {{ range $i, $page := $groupPages }}
+        {{ $counter := add $i 1}}
+        <div class="col-md-4">
+          {{ .Render "summary" }}
         </div>
-      </div>
+        {{ if modBool $counter 3 }}
+    </div>
+    <div class="row">
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      {{ .Content }}
+    </div>
   </div>
 {{ end }}
 

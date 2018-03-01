@@ -1,0 +1,19 @@
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h3 class="panel-title">Next Meetup</h3>
+    </div>
+    <div class="panel-body text-center">
+      <h4>
+      <a href="{{.rsvp_link}}"><strong>{{ .name }}</strong></a>
+          - {{ dateFormat "Monday, January 2, 2006" .date }}
+      </h4>
+        {{ with .description }}
+        <p class="text-left text-muted">{{ . }}</p>
+        {{ end }}
+        <p>
+        Learn more at the <a href='{{ .rsvp_link }}'>event page</a>!
+        </p>
+    </div>
+</div>
+
+

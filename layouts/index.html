@@ -1,60 +1,51 @@
 {{ define "main" }}
+  {{/* Set up group data in Scratch */}}
+  {{ $.Scratch.Set "groups" .Site.Data.groups }}
+
+  {{/* Setup all events that have a next value */}}
+  {{ $.Scratch.Set "events" dict }}
+  {{ range .Site.Data.events  }}
+    {{ if isset . "next" }}
+      {{ $.Scratch.SetInMap "events" .next.date .next  }}
+    {{ end }}
+  {{ end }}
+
   <div role="main" class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        {{ with .Content }}
-            {{.}}
-        {{ end }}
+        {{ .Content }}
 
-        <div class="posts-list">
-          {{ $pag := .Paginate (where .Data.Pages "Type" "post") }}
-          {{ range $pag.Pages }}
-            <article class="post-preview">
-              <a href="{{ .Permalink }}">
-                <h2 class="post-title">{{ .Title }}</h2>
-                {{ if .Params.subtitle }}
-                  <h3 class="post-subtitle">
-                  {{ .Params.subtitle }}
-                  </h3>
-                {{ end }}
-              </a>
+        <h2>Upcoming developer events</h2>
 
-              {{ partial "post_meta.html" . }}
-              <div class="post-entry">
-                {{ if .Truncated }}
-                  {{ .Summary }}
-                  <a href="{{ .Permalink }}" class="post-read-more">[{{ i18n "readMore" }}]</a>
-                {{ else }}
-                  {{ .Content }}
-                {{ end }}
-              </div>
+        <br>
+        {{ range $events :=  $.Scratch.Get "events" }}
+          {{ $groups := $.Scratch.Get "groups" }}
+          {{ $group := index $groups .group }}
 
-              {{ if .Params.tags }}
-                <span class="post-meta">
-                {{ range .Params.tags }}
-                  #<a href="{{ $.Site.LanguagePrefix | absURL }}tags/{{ . | urlize }}/">{{ . }}</a>&nbsp;
-                {{ end }}
-                </span>
-              {{ end }}
-            </article>
+          <strong>{{ dateFormat "Monday, January 2, 2006" .date }}</strong>
+          <h4> <a href="{{.rsvp_link}}">
+            <span class="label {{ if eq $group.type "hackathon" }}
+              label-danger {{ else }} label-info {{ end }}
+              pull-right">{{ $group.type }}</span>
+              {{ .name }}
+          </a></h4>
+          {{ with .description }}
+          <blockquote>
+              <p>{{ . }}</p>
+          </blockquote>
           {{ end }}
-        </div>
-
-        {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
-          <ul class="pager main-pager">
-            {{ if .Paginator.HasPrev }}
-              <li class="previous">
-                <a href="{{ .URL }}page/{{ .Paginator.Prev.PageNumber }}">&larr; {{ i18n "newerPosts" }}</a>
-              </li>
-            {{ end }}
-            {{ if .Paginator.HasNext }}
-              <li class="next">
-                <a href="{{ .URL }}page/{{ .Paginator.Next.PageNumber }}">{{ i18n "olderPosts" }} &rarr;</a>
-              </li>
-            {{ end }}
-          </ul>
+          <small>
+            learn more about <a href="/groups/{{ .group }}">{{$group.title}}</a>
+          </small>
+          <hr>
         {{ end }}
       </div>
+    </div>
+
+    <div class="alert alert-info text-center" role="alert">
+      <small>
+      Interested in starting a new dev meetup?  Contact us on email, twitter, or slack!
+      </small>
     </div>
   </div>
 {{ end }}

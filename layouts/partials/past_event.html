@@ -1,0 +1,12 @@
+
+<hr>
+<h4>
+  {{ if isset . "type" }}
+  <span class="label {{ if eq .type "hackathon" }}
+    label-danger {{ else }} label-info {{ end }}
+    pull-right">{{ .type }}</span>
+  {{ end }}
+
+  <a href="{{if isset . "rsvp_link"}}{{.rsvp_link}}{{end}}">{{ .name }}</a> - {{ dateFormat "January 2, 2006" .date }}
+</h4>
+
