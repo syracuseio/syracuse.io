@@ -1,8 +1,11 @@
 ---
 next:
-  name: "Women in Coding - Monthly Workshop"
   group: women_in_coding
+  name: Women in Coding - Monthly Workshop
+  description: Women in Coding host monthly workshop style classes that give you the
+    chance to work on a project or work through an online curriculum at your own pace
   rsvp_link: https://www.meetup.com/Syracuse-Tech-Meetup/events/247545233/
   date: 2018-03-10
-  time: 6:00pm
-  location: Tech Garden
+  time: 10:00am
+  location: The Tech Garden
+past: []
