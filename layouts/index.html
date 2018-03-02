@@ -6,7 +6,9 @@
   {{ $.Scratch.Set "events" dict }}
   {{ range .Site.Data.events  }}
     {{ if isset . "next" }}
-      {{ $.Scratch.SetInMap "events" .next.date .next  }}
+      {{ with .next }}
+        {{ $.Scratch.SetInMap "events" .date .  }}
+      {{ end }}
     {{ end }}
   {{ end }}
 
