@@ -7,25 +7,25 @@
       </article>
     </div>
   </div>
-</div>
 
-<div class="row">
-  <div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3">
+  <div class="row">
+    <div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3">
 
-  {{ with index .Site.Data.events .Params.group }}
-    {{ with index . "next"}}
-      {{ partial "next_event.html" . }}
-    {{ end }}
-    <br>
+    {{ with index .Site.Data.events .Params.group }}
+      {{ with index . "next"}}
+        {{ partial "next_event.html" . }}
+      {{ end }}
+      <br>
 
-    {{ with index . "past" }}
-      <strong>Past Events:</strong>
-      {{ range . }}
-        {{ partial "past_event.html" . }}
+      {{ with index . "past" }}
+        <strong>Past Events:</strong>
+        {{ range . }}
+          {{ partial "past_event.html" . }}
+        {{ end }}
       {{ end }}
     {{ end }}
-  {{ end }}
 
+    </div>
   </div>
 </div>
 {{ end }}
