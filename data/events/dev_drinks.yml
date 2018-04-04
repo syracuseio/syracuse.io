@@ -1,2 +1,12 @@
 ---
+next:
+  group: dev_drinks
+  name: 'Happy Hour hosted by Upstate Interactive and Euphony! 🍻'
+  description: Stop by for free beer and snacks, and meet some of the great
+    people and companies at the Tech Garden.
+  rsvp_link: https://www.meetup.com/Syracuse-Software-Development-Meetup/events/249394375/
+  date: 2018-04-05
+  time: 4:30pm
+  location: The Tech Garden
+past:
 
