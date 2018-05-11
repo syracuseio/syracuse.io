@@ -1,6 +1,17 @@
 ---
 next:
   group: syr_js
+  name: 'Syracuse JavaScript Meetup | Topic: Open JS Discussions'
+  description: We are a group dedicated to discussing and working with the JavaScript
+    programming language.  Each event has both a learning and interactive portion.
+    Whether you’re an experienced JavaScript programmer or just getting started, we
+    welcome and encourage all proficiency levels.
+  rsvp_link: https://www.meetup.com/Syracuse-Software-Development-Meetup/events/250143046/
+  date: 2018-05-15
+  time: 6:00pm
+  location: Syracuse Coworks
+past:
+- group: syr_js
   name: 'Syracuse JavaScript Meetup | Current Topic: TBD'
   description: We are a group dedicated to discussing and working with the JavaScript
     programming language.  Each event has both a learning and interactive portion.
@@ -10,7 +21,6 @@ next:
   date: 2018-04-17
   time: 6:00pm
   location: Syracuse Coworks
-past:
 - group: syr_js
   name: 'Syracuse JavaScript Meetup | Current Topic: Asynchronous JavaScript'
   description: We are a group dedicated to discussing and working with the JavaScript
