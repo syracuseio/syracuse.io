@@ -1,5 +1,6 @@
 ---
 next:
+past:
   group: dev_drinks
   name: 'Happy Hour hosted by Upstate Interactive and Euphony! 🍻'
   description: Stop by for free beer and snacks, and meet some of the great
@@ -8,5 +9,4 @@ next:
   date: 2018-04-05
   time: 4:30pm
   location: The Tech Garden
-past:
 
