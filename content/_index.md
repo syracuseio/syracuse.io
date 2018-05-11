@@ -6,10 +6,10 @@ resources](/resources/), an active slack [community](/community/), and more to c
 Whether you are new to the area or a seasoned veteran, please check
 out [tech meetups](/groups), join our
 [mailing list](https://tinyletter.com/syracuseio), and hang out
-with our local slack group...
+with our [local slack group](//slackacuse.herokuapp.com)
 
 <center><script async defer src="https://syracuseio.now.sh/slackin.js?large"></script></center>
 
-Take a look at our upcoming events below, join us in slack, say
-"hello ~~world~~", and join our community of Syracuse devs.
+Take a look at our upcoming events below, join us in slack,
+and join our friendly community of Syracuse devs.
 
