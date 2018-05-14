@@ -1,7 +1,15 @@
 ---
 next:
 past:
-  group: dev_drinks
+- group: dev_drinks
+  name: 'Developer Happy Hour 🍻'
+  description: As part of the launch of the Syracuse Software Development Meetup,
+    you're invited to come meet other devs for a casual after work Happy Hour
+  rsvp_link: https://www.meetup.com/Syracuse-Software-Development-Meetup/events/249566139/
+  date: 2018-04-26
+  time: 5:15pm
+  location: Shaugnessys
+- group: dev_drinks
   name: 'Happy Hour hosted by Upstate Interactive and Euphony! 🍻'
   description: Stop by for free beer and snacks, and meet some of the great
     people and companies at the Tech Garden.
@@ -9,4 +17,12 @@ past:
   date: 2018-04-05
   time: 4:30pm
   location: The Tech Garden
+- group: dev_drinks
+  name: 'Developer Happy Hour 🍻'
+  description: As part of the launch of the Syracuse Software Development Meetup,
+    you're invited to come meet other devs for a casual after work Happy Hour
+  rsvp_link: https://www.meetup.com/Syracuse-Software-Development-Meetup/events/247277585/
+  date: 2018-01-18
+  time: 5:15pm
+  location: Shaugnessys
 
