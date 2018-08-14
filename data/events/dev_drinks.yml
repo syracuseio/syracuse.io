@@ -1,13 +1,13 @@
 ---
 next:
-  group: dev_drinks
+past:
+- group: dev_drinks
   name: 'Developer Happy Hour 🍻'
   description: Come spend an hour out with your friendly local developer community!
   rsvp_link: https://www.meetup.com/Syracuse-Software-Development-Meetup/events/252033635/
   date: 2018-06-28
   time: 5:30pm
   location: Shaugnessys
-past:
 - group: dev_drinks
   name: 'Developer Happy Hour 🍻'
   description: As part of the launch of the Syracuse Software Development Meetup,
