@@ -1,6 +1,15 @@
 ---
 next:
   group: openhack
+  name: OpenHack August
+  description: 'OpenHack is a casual social coding meetup with a simple purpose: Code
+    together, on anything.'
+  rsvp_link: https://www.meetup.com/Syracuse-Software-Development-Meetup/events/253543482/
+  date: 2018-08-14
+  time: 6:00pm
+  location: Syracuse Coworks
+past:
+- group: openhack
   name: OpenHack July
   description: 'OpenHack is a casual social coding meetup with a simple purpose: Code
     together, on anything.'
@@ -8,7 +17,6 @@ next:
   date: 2018-07-10
   time: 6:00pm
   location: Syracuse Coworks
-past:
 - group: openhack
   name: OpenHack June
   description: 'OpenHack is a casual social coding meetup with a simple purpose: Code

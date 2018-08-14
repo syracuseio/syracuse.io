@@ -6,11 +6,21 @@ next:
     programming language.  Each event has both a learning and interactive portion.
     Whether you’re an experienced JavaScript programmer or just getting started, we
     welcome and encourage all proficiency levels.
+  rsvp_link: https://www.meetup.com/Syracuse-Software-Development-Meetup/events/252706452/
+  date: 2018-08-21
+  time: 6:00pm
+  location: The Tech Garden
+past:
+- group: syr_js
+  name: 'Syracuse JavaScript Meetup | Current Topic: TBD'
+  description: We are a group dedicated to discussing and working with the JavaScript
+    programming language.  Each event has both a learning and interactive portion.
+    Whether you’re an experienced JavaScript programmer or just getting started, we
+    welcome and encourage all proficiency levels.
   rsvp_link: https://www.meetup.com/Syracuse-Software-Development-Meetup/events/251996361/
   date: 2018-07-17
   time: 6:00pm
   location: Syracuse Coworks
-past:
 - group: syr_js
   name: 'Syracuse JavaScript Meetup | Topic: Callbacks, Promises & Observables'
   description: We are a group dedicated to discussing and working with the JavaScript
