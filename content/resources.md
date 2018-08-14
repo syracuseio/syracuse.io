@@ -9,7 +9,7 @@ The following is a list of Open Data and training opportunities for the Syracuse
 
 * **[Tech 4 Kidz](https://tech4kidz.net)**: 
 An organization dedicated to providing educational tech classes to kids ages 7 - 15 
-* **[StartFast CODE](http://www.startfastcode.com)**: Syracuse's only coding bootcamp. 
+* **[Code Community](https://codecommunity.io)**: Weekly programming classes for beginners 
 
 
 ## Open data
