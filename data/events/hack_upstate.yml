@@ -1,5 +1,12 @@
 ---
 next:
+  group: hack_upstate
+  name: Hack Upstate XII
+  rsvp_link: http://hackupstate.com/events/xii/index.html
+  date: 2018-10-06
+  time: 11:00am
+  location: Tech Garden
+  description: Hack Upstate organizes weekend hackathons twice a year (i.e., Fall & Spring) where developers, designers, engineers and innovators from across Upstate New York come to Syracuse, NY, to share ideas, form teams, build projects, and win awesome prizes in 24 hours. The event is free to attend for all participants. Join us!  October 6th and 7th, 2018
 past:
 - group: hack_upstate
   name: Hack Upstate XI
@@ -7,5 +14,4 @@ past:
   date: 2018-04-14
   time: 6:00pm
   location: Tech Garden
-  description: >
-    Hack Upstate organizes weekend hackathons twice a year (i.e., Fall & Spring) where developers, designers, engineers and innovators from across Upstate New York come to Syracuse, NY, to share ideas, form teams, build projects, and win awesome prizes in 24 hours. The event is free to attend for all participants. Join us!
+  description: Hack Upstate organizes weekend hackathons twice a year (i.e., Fall & Spring) where developers, designers, engineers and innovators from across Upstate New York come to Syracuse, NY, to share ideas, form teams, build projects, and win awesome prizes in 24 hours. The event is free to attend for all participants. Join us!

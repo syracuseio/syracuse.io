@@ -1,6 +1,15 @@
 ---
 next:
   group: women_in_coding
+  name: Intro to HTML & CSS - Library Workshop by Women in Coding
+  description: Women in Coding host monthly workshop style classes that give you the
+    chance to work on a project or work through an online curriculum at your own pace
+  rsvp_link: https://www.meetup.com/Syracuse-Tech-Meetup/events/254506184/
+  date: 2018-10-13
+  time: 10:00am
+  location: Fayetteville Free Library
+past:
+- group: women_in_coding
   name: Women in Coding - Monthly Workshop
   description: Women in Coding host monthly workshop style classes that give you the
     chance to work on a project or work through an online curriculum at your own pace
@@ -8,7 +17,6 @@ next:
   date: 2018-09-08
   time: 10:00am
   location: The Tech Garden
-past:
 - group: women_in_coding
   name: Women in Coding - Monthly Workshop
   description: Women in Coding host monthly workshop style classes that give you the
