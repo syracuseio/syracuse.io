@@ -1,6 +1,17 @@
 ---
 next:
   group: syr_js
+  name: Intro to JavaScript - Library Workshop by Women in Coding
+  description: We are a group dedicated to discussing and working with the JavaScript
+    programming language.  Each event has both a learning and interactive portion.
+    Whether you’re an experienced JavaScript programmer or just getting started, we
+    welcome and encourage all proficiency levels.
+  rsvp_link: https://www.meetup.com/Syracuse-Software-Development-Meetup/events/hjqsjqyxqblb/
+  date: 2018-12-08
+  time: 10:00am
+  location: Fayetteville Free Library
+past:
+- group: syr_js
   name: 'Syracuse JavaScript Meetup | Topic: ES6+ Syntax + Challenges/Prizes!'
   description: We are a group dedicated to discussing and working with the JavaScript
     programming language.  Each event has both a learning and interactive portion.
@@ -10,7 +21,6 @@ next:
   date: 2018-09-18
   time: 6:00pm
   location: Syracuse Coworks
-past:
 - group: syr_js
   name: 'Syracuse JavaScript Meetup | Current Topic: TBD'
   description: We are a group dedicated to discussing and working with the JavaScript
